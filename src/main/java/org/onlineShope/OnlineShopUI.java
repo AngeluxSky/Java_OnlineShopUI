@@ -1,4 +1,4 @@
-package org.example;
+package org.onlineShope;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +29,7 @@ public class OnlineShopUI {
                 break;      // Выходим из цикла, если введено целое число
             } else {
                 System.out.println("Некорректный ввод. Пожалуйста, введите целое число для количества.");
-                scanner.next();     
+                scanner.next();
             }
         }
 
@@ -91,7 +91,7 @@ class ProductDatabase {
                 return product;
             }
         }
-        return null;        // Если товар не найден
+        return null;    // Если товар не найден
     }
 }
 
